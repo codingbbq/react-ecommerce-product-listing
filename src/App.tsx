@@ -1,10 +1,12 @@
+import Header from "./components/header/Header"
+import ProductList from "./components/productList/ProductList"
+
 function App() {
 
   return (
     <>
-        <h1 className="text-3xl font-bold underline">
-          Hello World!!
-        </h1>
+        <Header />
+        <ProductList />
     </>
   )
 }
